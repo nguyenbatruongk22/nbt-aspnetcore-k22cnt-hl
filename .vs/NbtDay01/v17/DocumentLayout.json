@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ASPNET-HL-NBT\\NbtDay01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDBCC78-9AAF-4BE1-B4FA-5309E7640452}|NbtDay01Demo2\\NbtDay01Demo2.csproj|c:\\aspnet-hl-nbt\\nbtday01\\nbtday01demo2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BDBCC78-9AAF-4BE1-B4FA-5309E7640452}|NbtDay01Demo2\\NbtDay01Demo2.csproj|solutionrelative:nbtday01demo2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDBCC78-9AAF-4BE1-B4FA-5309E7640452}|NbtDay01Demo2\\NbtDay01Demo2.csproj|c:\\aspnet-hl-nbt\\nbtday01\\nbtday01demo2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BDBCC78-9AAF-4BE1-B4FA-5309E7640452}|NbtDay01Demo2\\NbtDay01Demo2.csproj|solutionrelative:nbtday01demo2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDBCC78-9AAF-4BE1-B4FA-5309E7640452}|NbtDay01Demo2\\NbtDay01Demo2.csproj|c:\\aspnet-hl-nbt\\nbtday01\\nbtday01demo2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BDBCC78-9AAF-4BE1-B4FA-5309E7640452}|NbtDay01Demo2\\NbtDay01Demo2.csproj|solutionrelative:nbtday01demo2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9C66AC1-395D-468A-B13E-732390E536DC}|NbtDay01\\NbtDay01.csproj|c:\\aspnet-hl-nbt\\nbtday01\\nbtday01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9C66AC1-395D-468A-B13E-732390E536DC}|NbtDay01\\NbtDay01.csproj|solutionrelative:nbtday01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\ASPNET-HL-NBT\\NbtDay01\\NbtDay01Demo2\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "NbtDay01Demo2\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\ASPNET-HL-NBT\\NbtDay01\\NbtDay01Demo2\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "NbtDay01Demo2\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T08:13:30.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ASPNET-HL-NBT\\NbtDay01\\NbtDay01Demo2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "NbtDay01Demo2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\ASPNET-HL-NBT\\NbtDay01\\NbtDay01Demo2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "NbtDay01Demo2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T08:12:37.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\ASPNET-HL-NBT\\NbtDay01\\NbtDay01Demo2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NbtDay01Demo2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\ASPNET-HL-NBT\\NbtDay01\\NbtDay01Demo2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NbtDay01Demo2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T08:11:17.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ASPNET-HL-NBT\\NbtDay01\\NbtDay01\\Program.cs",
+              "RelativeDocumentMoniker": "NbtDay01\\Program.cs",
+              "ToolTip": "C:\\ASPNET-HL-NBT\\NbtDay01\\NbtDay01\\Program.cs",
+              "RelativeToolTip": "NbtDay01\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T08:04:45.361Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
