@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewData["Title"] = "Cau truc dieu khien if";
+    var total = 123123;
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr/>
+<h3>Total $: @total</h3>
+@if (total>5000)
+{
+    <p>Ban la nguoi giau</p>
+}
+else
+{
+    <p>Ban la nguoi chua giau</p>
+}
+<hr/>
+@{
+    var diem = 8;
+}
+
+@if (diem >= 9)
+{
+    <p>Xuất sắc</p>
+}
+else if (diem >= 7)
+{
+    <p>Khá</p>
+}
+else if (diem >= 5)
+{
+    <p>Trung bình</p>
+}
+else
+{
+    <p>Yếu</p>
+}
+
+
