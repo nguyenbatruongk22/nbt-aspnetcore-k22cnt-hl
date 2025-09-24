@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "Thong tin thanh vien";
+    // chuyen doi kieu
+    var NbtMember = @ViewBag.NbtMember as NbtDay05Model.Models.NbtMember;
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Member Id: @ViewBag.NbtMember.MemberId</p>
+<p>FullName: @NbtMember.FullName</p>
+<p>UserName: @NbtMember.UserName</p>
+<p>Password: @NbtMember.Password</p>
+<p>Email: @NbtMember.Email</p>
+<hr/>
+

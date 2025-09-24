@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "Danh sach thanh vien";
+    // chuyen doi kieu
+    var members = Model as List<NbtDay05Model.Models.NbtMember>;
+    var stt = 1;
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr/>
+<table class="table table-bordered">
+    <thread>
+        <tr>
+            <th>STT</th>
+            <th>Member Id</th>
+            <th>FullName</th>
+            <th>UserName</th>
+            <th>Email</th>
+        </tr>
+
+    </thread>
+    <tbody>
+        @foreach (var item in members)
+        {
+            <tr>
+                <td>@stt</td>
+                <td>@item.MemberId</td>
+                <td>@item.FullName</td>
+                <td>@item.UserName</td>
+                <td>@item.Email</td>
+              
+            </tr>
+            stt++;
+        }
+    </tbody>
+
+</table>
+

@@ -1,0 +1,60 @@
+﻿@model IEnumerable<NbtDay05Model.Models.NbtMember>
+
+@{
+    ViewData["Title"] = "Danh sach thanh vien";
+}
+
+<h1 class=" text-center alert-heading"> @ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="NbtCreate" class="btn btn-primary">Thêm mới</a>
+
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MemberId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>Chuc nang</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MemberId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "NbtEdit", new {  id=item.MemberId }) |
+                    @Html.ActionLink("Details", "NbtDetails", new { id = item.MemberId }) |
+                    @Html.ActionLink("Delete", "NbtDelete", new { id = item.MemberId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
